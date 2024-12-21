@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './message-bubble.component.html',
-  styleUrl: './message-bubble.component.scss'
+  styleUrl: './message-bubble.component.scss',
 })
-export class MessageBubbleComponent {
-
-}
+export class MessageBubbleComponent {}

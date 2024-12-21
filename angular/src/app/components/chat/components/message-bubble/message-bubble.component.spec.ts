@@ -8,10 +8,9 @@ describe('MessageBubbleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MessageBubbleComponent]
-    })
-    .compileComponents();
-    
+      imports: [MessageBubbleComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(MessageBubbleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

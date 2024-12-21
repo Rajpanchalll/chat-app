@@ -86,11 +86,23 @@
           "options": {
             "buildTarget": "angular:build"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "49175d5d-74ea-4e68-9f5b-14e89ce21318"
+    "analytics": "49175d5d-74ea-4e68-9f5b-14e89ce21318",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
